@@ -1,0 +1,37 @@
+.env
+coverage
+
+# Dependencies
+bower_components
+node_modules
+
+# Dist
+target
+
+# Caches
+.sass-cache
+.tmp
+
+# IDE
+.idea
+.sublime
+
+# Other
+.DS_Store
+/.history
+/.wercker
+npm-debug.log
+newrelic_agent.log
+/.bundle
+
+# Visual Captcha
+/tools/visualcaptcha-nl-audios/audios_nl.json
+/tools/visualcaptcha-nl-audios/audios
+
+# Wercker CLI
+_builds
+_cache
+_projects
+_steps
+_temp
+

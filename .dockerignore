@@ -1,0 +1,8 @@
+deploy
+guidelines
+logs
+project
+target
+.idea
+node_modules
+Jenkinsfile

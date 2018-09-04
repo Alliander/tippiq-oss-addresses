@@ -1,0 +1,80 @@
+{
+  "extends": [
+//    "airbnb",
+    "eslint-config-airbnb-es5",
+    "plugin:jasmine/recommended",
+    "plugin:mocha/recommended",
+    "plugin:node/recommended",
+  ],
+  "env": {
+//    "browser": true,
+    "node": true,
+    "mocha": true,
+    "jasmine": true,
+//    "protractor": true,
+  },
+//  "parser": "babel-eslint",
+  "plugins": [
+    "jasmine",
+    "mocha",
+    "node",
+  ],
+  "rules": {
+    // This first block of rules are disabled because this is legacy code.
+    "indent": "off",
+    "func-names": "off",
+    "no-param-reassign": "off",
+    "new-cap": ["error", {"capIsNewExceptions": ["Router"]}],
+    "node/no-unpublished-require": "off",
+    "complexity":"off",
+
+    "arrow-parens": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": "off",
+    "react/no-unused-prop-types": "off",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-filename-extension": "off",
+    "class-methods-use-this": "off",
+    "react/forbid-prop-types": "off",
+//    "complexity": [
+//      "error",
+//      5
+//    ],
+    "jasmine/no-spec-dupes": 0,
+    "max-depth": [
+      "error",
+      3
+    ],
+    "max-params": [
+      "error",
+      4
+    ],
+    "max-statements": [
+      "error",
+      15
+    ],
+//    "require-jsdoc": [
+//      "error",
+//      {
+//        "require": {
+//          "FunctionDeclaration": true,
+//          "MethodDefinition": true,
+//          "ClassDeclaration": true,
+//        }
+//      },
+//    ],
+  },
+  "globals": {
+    "root": true,
+//    "__DEVELOPMENT__": true,
+//    "__CLIENT__": true,
+//    "__SERVER__": true,
+//    "__DISABLE_SSR__": true,
+//    "__DEVTOOLS__": true,
+//    "__DEBUG__": true,
+//    "__SSR__": true,
+//    "socket": true,
+//    "webpackIsomorphicTools": true,
+  },
+}
