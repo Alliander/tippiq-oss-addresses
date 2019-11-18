@@ -42,7 +42,7 @@
     "mocha": "3.2.0",
     "morgan": "~1.6.1",
     "npm-run-all": "4.0.2",
-    "pg": "6.1.5",
+    "pg": "7.12.1",
     "strip-bom": "3.0.0"
   },
   "devDependencies": {
