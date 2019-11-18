@@ -38,7 +38,7 @@
     "jsonwebtoken": "5.5.4",
     "knex": "0.12.9",
     "knex-postgis": "0.2.1",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "mocha": "3.2.0",
     "morgan": "~1.6.1",
     "npm-run-all": "4.0.2",
