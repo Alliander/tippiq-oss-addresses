@@ -40,7 +40,7 @@
     "knex-postgis": "0.2.1",
     "lodash": "^3.10.1",
     "mocha": "3.2.0",
-    "morgan": "~1.6.1",
+    "morgan": "~1.9.1",
     "npm-run-all": "4.0.2",
     "pg": "6.1.5",
     "strip-bom": "3.0.0"
